@@ -1,0 +1,137 @@
+@media (max-width: 1171px) {
+    #searching-bar{
+        margin-left: -31px;
+    }
+
+    nav {
+        width: 20vw;
+
+    }
+}
+
+@media (max-width: 1085px){
+    .moon,
+    .sun{
+        margin-right: -119px;
+    }
+}
+
+@media (max-width: 940px){
+    
+
+    #searching-bar{
+        width: 429px;
+    }
+
+}
+
+@media (max-width: 824px){
+    .moon,
+    .sun {
+        margin-right: -61px;
+    }
+}
+
+@media (max-width: 742px) {
+    nav {
+        width: 25vw;
+    }
+
+    #searching-bar{
+        width: 300px;
+    }
+}
+
+@media (max-width: 630px){
+    .page {
+        flex-direction: column;
+        margin: 2px;
+    }
+
+
+    nav{
+        width: 100vw; 
+        height: 200px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .first-header{
+        margin-bottom: -40px;
+    }
+
+    .notes{
+        row-gap: 30px;
+        /* background-color: red; */
+    }
+
+    .icons{
+        flex-direction: row;
+        row-gap: 2px;
+        width: 100vw;
+        height: 10px;
+        column-gap: 30px;
+        
+    }
+    .button-color {
+        /* z-index: 2; */
+        background: red;
+        
+    }
+}
+
+@media (max-width: 1230px){
+    #dialog{
+         width: 30vw;
+         left: 20vw
+        
+    }
+
+}
+
+@media (max-width: 1030px){
+    #dialog{
+        width: 35vw;
+    }
+}
+
+@media (max-width: 890px){
+    #dialog{
+        width: 40vw;
+    }
+}
+
+@media (max-width: 770px){
+    #dialog{
+        width: 45vw;
+    }
+}
+@media (max-width: 690px){
+    #dialog{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 600px){
+    #dialog {
+        width: 70vw;
+        height: 450px;
+    }
+}
+
+@media (max-width: 400px){
+    #searching-bar{
+        width: 100px;
+        
+    }
+
+}
+
+@media (max-width: 370){
+    #dialog {
+        width: 100vw;
+        height: 450px;
+    } 
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <title>Notes Website</title>
+</head>
+
+<body>
+    <section class="page">
+        <nav id="nav" class="dark">
+
+            <header class="first-header">
+                <img class="book-image" src="src/images/book.png" alt="Book Image">
+                <h2 id="notes-title" class="dark"> Notes</h2>
+            </header>
+
+
+            <button id="button-notes" class="select-color button">
+                <img id="add-note" class="plus-symbol-black" src="src/images/plus-symbol-black.png" alt="Book Image">
+            </button>
+
+
+            <!-- Add notes-->
+            <section  id="icons"  class="icons disable">
+                <button id="button-green" class="button-color"> </button>
+                <button id="button-yellow" class="button-color"> </button>
+                <button id="button-red" class="button-color"> </button>
+            </section>
+
+            <dialog id="dialog">
+                <form action="" method="">
+                    <label for="title"> Title:</label>
+                    <input class="text-title" type="text" maxlength="20" size="24" id="title">
+
+                    <label for="description"> Description:</label>
+                    <textarea auto rows="10" cols="30" class="text-description" maxlength="1000" size="10"
+                        id="description"></textarea>
+                    
+                    <input id="button-submit" type="submit" value="Submit">
+                </form>
+            </dialog>
+
+        </nav>
+
+
+        <!-- Searching-->
+        <main id="main" class="dark">
+            <header class="searching-container">
+                <form action="" method=""> <!-- Action sends to a page. ex: action="/page.php" method="post"-->
+                    <input  id="searching-bar" class="dark" type="text" maxlength="40" size="50">
+                    <!-- <img src="src/images/search.png" alt="Search image">
+                 -->
+                    
+                </form>
+
+                <button id="button-change-theme" class="change-theme button">
+                    <img  id="moon" class="moon" src="src/images/moon.png" alt="Image moon">
+                </button>
+
+            </header>
+            <section class="content-notes">
+                <div class="container-dashboard">
+                    <img class="dashboard" src="src/images/notes.png" alt="Notes icon">
+                    <h1 id="dashboard" class="dark"> Dashboard</h1>
+                </div>
+                <div class="notes">
+                    <!-- This section is base on the Backend-->
+
+                    <div class="notes-container">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dicta consequatur, explicabo excepturi temporibus quasi tenetur cupiditate. Deserunt, itaque, quia nam architecto, iste velit aliquam nobis exercitationem sint quam placeat. </p>
+
+                    </div>
+
+                    <div id="notes-container" class="notes-container">
+                        <div class="actions">
+                            <button class="button-delete">
+                                <img class="delete"  src="./src/images/trash.png" alt="Delete note">
+                            </button>
+                            <button class="button-edit">
+                                <img class="edit" src="./src/images/edit.png" alt="Edit note">
+                            </button>
+
+                        </div>
+                        
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dicta consequatur, explicabo excepturi temporibus quasi tenetur cupiditate. Deserunt, itaque, quia nam architecto, iste velit aliquam nobis exercitationem sint quam placeat. </p>
+                        
+                        
+
+                    </div>
+
+                    <!-- <div class="notes-container" style="background-color: #FFB800;">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!!</p>
+                    </div>
+                    <div class="notes-container" style="background-color: #E8A8A8;">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!!</p>
+                    </div>
+
+                    <div class="notes-container" style="background-color: #FFB800;">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!!</p>
+                    </div>
+                    <div class="notes-container" style="background-color: #E8A8A8;">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!!</p>
+                    </div>
+
+                    <div class="notes-container" style="background-color: #FFB800;">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!!</p>
+                    </div>
+                    <div class="notes-container" style="background-color: #E8A8A8;">
+                        <h2 class="note-title"> My day at school </h2>
+                        <p class="note-description"> today was a good day!!</p>
+                    </div>
+                </div> -->
+
+            </section>
+
+        </main>
+    </section>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

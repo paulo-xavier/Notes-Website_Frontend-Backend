@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.button {
+    background: none;
+    border: none;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  /* ===== Scrollbar CSS ===== */
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #582965;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
